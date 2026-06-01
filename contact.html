@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="Contact — Luka Jozic" data-sr="Kontakt — Luka Jozić">Contact — Luka Jozic</title>
+<meta name="description" content="Get in touch with baritone Luka Jozic — booking, engagements and general enquiries.">
+<link rel="canonical" href="https://lukajozic.com/contact.html">
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0b0a08">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Luka Jozic">
+<meta property="og:title" content="Contact — Luka Jozic">
+<meta property="og:description" content="Get in touch with baritone Luka Jozic — booking, engagements and general enquiries.">
+<meta property="og:url" content="https://lukajozic.com/contact.html">
+<meta property="og:image" content="https://lukajozic.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Luka Jozic — Baritone">
+<meta property="og:locale" content="en">
+<meta property="og:locale:alternate" content="sr_RS">
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — Luka Jozic">
+<meta name="twitter:description" content="Booking and enquiries for baritone Luka Jozic.">
+<meta name="twitter:image" content="https://lukajozic.com/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="Luka Jozic — Baritone">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="font" type="font/ttf" href="assets/Aboreto-Regular.ttf" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Luka Jozic — home" data-en="Luka Jozic" data-sr="Luka Jozić">Luka Jozic</a>
+  <div class="header-right">
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en">EN</button><span class="sep">/</span><button type="button" data-lang="sr">SRB</button>
+    </div>
+    <button class="burger" id="burger" type="button" aria-label="Open menu" data-en-aria="Open menu" data-sr-aria="Otvori meni"><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- MENU OVERLAY -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="close" type="button" aria-label="Close menu" data-en-aria="Close menu" data-sr-aria="Zatvori meni"></button>
+  <nav>
+    <a href="index.html" data-en="Home"       data-sr="Početna">Home</a>
+    <a href="biography.html"  data-en="Biography"  data-sr="Biografija">Biography</a>
+    <a href="repertoire.html" data-en="Repertoire" data-sr="Repertoar">Repertoire</a>
+    <a href="media.html"      data-en="Gallery"      data-sr="Galerija">Gallery</a>
+    <a href="contact.html"    data-en="Contact"    data-sr="Kontakt">Contact</a>
+  </nav>
+</div>
+
+<!-- CONTACT -->
+<main class="subpage section-pad" id="contact">
+  <div class="contact-head">
+    <div class="display-wrap cut reveal"><h1 class="display" data-en="Contact" data-sr="Kontakt">Contact</h1></div>
+  </div>
+
+  <div class="contact-meta fade">
+    <div class="blk">
+      <span class="label" data-en="Info" data-sr="Informacije">Info</span>
+      <a href="mailto:hello@lukajozic.com">hello@lukajozic.com</a>
+    </div>
+    <div class="blk">
+      <span class="label" data-en="Phone" data-sr="Telefon">Phone</span>
+      <a href="tel:+381641163608">+381 64 1163608</a>
+    </div>
+  </div>
+
+  <div>
+    <form class="contact-form fade" id="contact-form" novalidate>
+      <div class="form-row">
+        <div class="field">
+          <label data-en="Name <span class='req'>*</span>" data-sr="Ime <span class='req'>*</span>">Name <span class="req">*</span></label>
+          <input type="text" name="name" data-en-ph="Name" data-sr-ph="Ime" placeholder="Name">
+          <span class="err" data-en="Please enter your name." data-sr="Molimo unesite ime.">Please enter your name.</span>
+        </div>
+        <div class="field">
+          <label data-en="E-mail <span class='req'>*</span>" data-sr="E-pošta <span class='req'>*</span>">E-mail <span class="req">*</span></label>
+          <input type="email" name="email" data-en-ph="E-Mail" data-sr-ph="E-pošta" placeholder="E-Mail">
+          <span class="err" data-en="Please enter a valid e-mail." data-sr="Unesite ispravnu e-poštu.">Please enter a valid e-mail.</span>
+        </div>
+      </div>
+      <div class="field">
+        <label data-en="Message <span class='req'>*</span>" data-sr="Poruka <span class='req'>*</span>">Message <span class="req">*</span></label>
+        <textarea name="message" data-en-ph="Message" data-sr-ph="Poruka" placeholder="Message"></textarea>
+        <span class="err" data-en="Please enter a message." data-sr="Molimo unesite poruku.">Please enter a message.</span>
+      </div>
+      <div class="form-submit">
+        <button class="btn-send arrow-link" type="submit"><span class="ar">&rarr;</span><span data-en="Send" data-sr="Pošalji">Send</span></button>
+      </div>
+      <p class="form-note" data-en="Pressing Send opens your email app with the message ready to send to hello@lukajozic.com."
+                          data-sr="Klikom na Pošalji otvara se vaša aplikacija za e-poštu sa porukom spremnom za slanje na hello@lukajozic.com.">Pressing Send opens your email app with the message ready to send to hello@lukajozic.com.</p>
+    </form>
+    <p class="form-success" data-en="Thank you — your message has been sent."
+                            data-sr="Hvala vam — vaša poruka je poslata.">Thank you — your message has been sent.</p>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <span class="moon"></span>
+  <div class="lang footer-lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en">EN</button><span class="sep">/</span><button type="button" data-lang="sr">SRB</button>
+  </div>
+  <div class="foot-social">
+    <a href="https://www.instagram.com/lukijan.jo" target="_blank" rel="noopener">Instagram</a><a href="https://www.operabase.com/luka-jozic-a2126029/en" target="_blank" rel="noopener">Operabase</a>
+  </div>
+  <p class="foot-line">
+    <a href="privacy.html" data-en="Privacy Policy &amp; Cookie Notice" data-sr="Politika privatnosti i kolačići">Privacy Policy &amp; Cookie Notice</a><br>
+    <span data-en="© 2026 Luka Jozic. All rights reserved." data-sr="© 2026 Luka Jozić. Sva prava zadržana.">© 2026 Luka Jozic. All rights reserved.</span>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
